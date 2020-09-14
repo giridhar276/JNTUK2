@@ -1,0 +1,251 @@
+
+**** Everything in Python is Object *****
+**** Every object contains set of methods ******
+
+
+Objects
+---------
+
+number
+-----
+- number can be integer or octal or hexa or decimal.
+
+aval = 10
+bval = 45.4
+
+string
+------
+string can be defined in single quotes OR double quotes or triple triples.
+
+aname = 'python programming'
+bname = "scala programming"
+cname = """hadoop administration"""
+
+
+list  ( array in C )
+------
+list contains set of elements.
+Elements can be set of numbers or strings or any combination
+list elements are defined in [].
+
+
+alist = [10,45,56,4]
+blist = ["unix","linux","hadoop"]
+clist = [45,6,56.5,"unix","oracle"]
+
+
+tuple    ( READ ONLY , IMMUTABLE , UNCHANGABLE )
+-------
+tuple contains set of elements.
+Elements can be set of numbers or strings or any combination
+tuple elements are defined in ().
+********* Elements inside tuple cannot be modified directly **************
+
+
+atup = (35,45,43,4355,56)
+btup = ("unix","java","ruby","perl")
+ctup = (35,"python",56.54
+
+
+
+dictionary (  hash or map )
+----------------------------
+dictionary contains elements in key value pairs
+dictionary elements are defined in  {}.
+key is used to identify the value.
+** keys : number or string
+  values: number or string or list or tuple or dictionary
+
+syntax :     object = {key:value  , key:value , key:value }
+              book  = {"chap1":10 ,"chap2":20 ,"chap3":30 }
+             values = {1:2,3:4,5:6}
+             book  = {"chap1":["Rita","UK",24] ,"chap2":["Rao","US",50] ,"chap3":["Gita","AUS",30] }
+
+
+
+
+set
+-----
+set is UNORDERED collection of UNIQUE elements of SAME TYPE.
+set elements are defined in {}.
+
+
+aset = {10,10,10,20,20}
+
+
+
+
+functions an methods
+--------------------
+
+methods : methods are object specific.
+          Every object has its own different methods.
+          string methods are different, list methods are different
+          methods are accessible with . operator
+
+functions : functions are common for all the objects
+            print()
+            len()
+
+
+builtin functions
+------------------
+
+print()
+len()
+type()
+input()   ---> python3         raw_input()  ---> python2
+isinstance()
+range()
+min()
+max()
+sum()
+id()
+help()
+dir()
+
+conversion functions ( typecasting )
+------------------------------------
+int()
+float()
+oct()
+hex()
+str()
+list()
+tuple()
+dict()
+set()
+
+
+How to display all the available builtin functions?
+-------------------------------------------------------
+
+
+In the console
+
+dir(__builtins__)
+
+
+statements
+-----------
+
+
+conditional statements
+--------------------
+if
+if-else
+if-elif-elif...else    
+
+
+control statements  ( No do..while , switchcase )
+------------------
+for
+while
+
+
+jump statements
+------------------
+break
+continue
+
+
+
+
+
+
+level1
+level1
+level1
+if cond:
+     level2
+     level2
+     level2
+     level2
+level1
+level
+level1
+
+
+
+
+level1
+level1
+level1
+if cond:
+     level2
+     if cond:
+	level3
+	level3
+	level3
+     level2
+     level2
+level1
+level
+level1
+
+
+file  handling
+----------------
+There are 2 types of files.
+
+flat files ( csv log conf tsv  .properties txt )
+
+
+
+
+third party files 
+---------------
+ALl the files ending with .docx/doc  pdf  xlsx/xls  mp4 mp3  are opened with some third party library.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+set
