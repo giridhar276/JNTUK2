@@ -1,0 +1,76 @@
+links :
+
+objects: 
+---------
+https://www.techworldguru.com/understanding-python-objects/
+
+
+string : 
+---------
+https://www.techworldguru.com/python-string/
+
+
+list:
+---------
+https://www.techworldguru.com/python-list/
+
+
+dictionary : 
+---------
+https://www.techworldguru.com/python-dictionary/
+
+
+set:
+---------
+https://www.techworldguru.com/python-set-operations/
+
+
+data structures
+-----------------
+https://www.techworldguru.com/python-list-of-tuples-data-structure-example/
+https://www.techworldguru.com/python-list-of-lists-data-structure-example/
+
+
+conditional statements
+------------------------
+https://www.techworldguru.com/python-program-demonstrating-conditional-statements/
+
+
+operators:
+---------
+https://www.techworldguru.com/python-operators/
+
+
+functions:
+---------
+https://www.techworldguru.com/user-defined-functions-in-python/
+
+
+file handling:
+--------------
+https://www.techworldguru.com/file-handling-in-python/
+https://www.techworldguru.com/python-program-to-read-the-file-line-by-line/
+
+list comprehensions
+---------------------
+https://www.techworldguru.com/list-comprehension-in-python/
+
+
+directory handling: 
+------------------
+https://www.techworldguru.com/directory-handling-in-python/
+
+
+exception handling:
+------------------
+https://www.techworldguru.com/exception-handling-in-python/
+
+custom modules
+--------------
+https://www.techworldguru.com/defining-custom-modules-in-python/
+
+
+examples programs:
+------------------
+https://www.techworldguru.com/python/
+

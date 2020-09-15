@@ -1,0 +1,6 @@
+
+assignments:
+------------------
+https://www.techworldguru.com/python-assignment-1/
+https://www.techworldguru.com/python-assignment-2/
+https://www.techworldguru.com/python-assignment-3/
