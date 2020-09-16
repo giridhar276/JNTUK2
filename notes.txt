@@ -75,7 +75,7 @@ aset = {10,10,10,20,20}
 
 
 
-functions an methods
+functions and methods
 --------------------
 
 methods : methods are object specific.
@@ -196,6 +196,223 @@ flat files ( csv log conf tsv  .properties txt )
 third party files 
 ---------------
 ALl the files ending with .docx/doc  pdf  xlsx/xls  mp4 mp3  are opened with some third party library.
+
+
+
+syntax:
+
+opening the file
+---------------
+
+syntax :    object= open(filename,mode)
+Example:    fobj  = open("abc.txt","r")  # read mode
+
+            fobj  = open("abc.txt","w")  # write mode
+            case1 : If the file is not existing ... file gets created first
+            case2 : If the file is already existing.. it overwrites the file content completely
+
+            fobj  = open("abc.txt","a")  # append mode
+            case1 : If the file is not existing ... file gets created first
+            case2 : If the file is already existing.. it appends the data to the file
+        
+
+
+closing the file
+--------------
+
+fobj.close()
+
+
+
+read operation
+---------------
+  
+- reading with file object
+- fobj.readlines()
+- fobj.read()
+- using csv library
+- using pandas library
+
+
+
+exception handling
+-------------------
+
+Basically .. we have 2 types of errors.
+
+-syntax error
+-semantic eroor or runtime error
+
+
+Handling the errors in the runtime is known as exception handling
+
+
+keywords used
+==============
+
+try    (mandatory)
+except (mandatory)
+else   (optional)
+finally(optional)
+raise  (optional)
+
+
+libraries
+----------
+There are 2 types of libraries
+
+-builtin libraries
+-------------------
+Builtin libraries are generally used(string manipulations, OS interactions,math operations, copy files ) by everyone
+bulitin libraries are installed with python by default.
+In general ... anaconda contains 8000+ bulitin libraries
+
+
+-third party libraries
+---------------------
+Depending on the requirement( db programming, excel programming, cloud connectivity ,network programming,web development, machine learning, data analytics) developer has to third party library from www.pypi.org OR using pip tool  OR using easy_install .
+
+
+
+importing library
+------------------
+
+import math            ( all the methods will be imported )
+print(math.tan(2))
+print(math.log(3))
+
+
+importing required methods ONLY
+------------------------------
+from math import log,cos
+print(log(3))
+print(cos(1))
+
+importing with alias name
+--------------------------
+import math as m
+print(m.log(3))
+print(m.floor(34.3))
+
+
+
+
+
+
+
+builtin libraries
+--------------
+
+os     : os level operations( create directories | remove | list files | remove file | change file permissions)  
+sys           : system config information
+shutil        : copy, move , rmtree
+urllib.request: working with http
+math          : mathematical operations
+random        : random numbers
+calendar
+smtplib       : sending mails
+ftplib        : ftp'ng the file
+telnetlib     :
+logging       : logging all the events
+shutil        : copy,move,rmtree ....
+filecmp       : comparing directories
+zipfile       : create/extract the zip files
+rarfile       : create/extract the tar files
+tarfile       : create/extract the tarfiles
+getpass       : shadowing the password
+json          : reading/writing json files
+csv           : reading/writing csv files
+xml        
+sysconfig     : system configuration
+collections   : working with dictionaries
+argparse      : passing args from command line
+optparse      : passing args from command line
+time          : working with date and time
+datetime      : working with date and time
+cryptography  : encrypting and decrypting the passwords
+heapq         : performing array operations
+gzip          : reading gunzip files
+re            : validating the strings|patterns
+ipadresss     : validting ip address
+platform      : display platform information
+pathlib       : creating temp files
+threading     : for performing multi threading
+multiprocessing:
+subprocess    : invoking the system commands ( linux or dos commands)
+
+
+
+frequently used third party libraries  ( from pypi.org )
+---------------------------------------
+database related
+----------------
+pymysql   :
+cx_Oracle
+pymongo
+pymssql
+ 
+
+web frameworks ( developing web applications)
+--------------
+django
+flask
+bottle
+
+ 
+
+
+analytics/machine learning
+---------------------------
+numpy
+scipy
+pandas ( processing|data cleaning)
+seaborn
+plotly
+ggplot
+matplotlib   : visualizing data .. bar graph.. pie graph
+scikit-learn :  machine learning algorithms
+
+image processing
+---------------
+pillow
+opencv
+
+APIs ( REST API)
+-----
+requests
+
+
+
+excel programming
+------------------
+openpyxl    : reading/write excel files
+xlsxwriter  : writing to excel file
+python-docx : working with ms-word
+
+networking
+-----------
+paramiko   :  interacting with remote servers
+netmiko    :  connecting to router/switch
+pysftp     :
+ftplib     :
+pyping     :  ping any host or ip address
+os.system():
+subprocess.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
