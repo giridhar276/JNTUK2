@@ -265,7 +265,7 @@ There are 2 types of libraries
 -------------------
 Builtin libraries are generally used(string manipulations, OS interactions,math operations, copy files ) by everyone
 bulitin libraries are installed with python by default.
-In general ... anaconda contains 8000+ bulitin libraries
+In general ... anaconda contains 8000+ libraries
 
 
 -third party libraries
@@ -312,9 +312,9 @@ random        : random numbers
 calendar
 smtplib       : sending mails
 ftplib        : ftp'ng the file
+sshlib        :
 telnetlib     :
 logging       : logging all the events
-shutil        : copy,move,rmtree ....
 filecmp       : comparing directories
 zipfile       : create/extract the zip files
 rarfile       : create/extract the tar files
@@ -346,10 +346,10 @@ frequently used third party libraries  ( from pypi.org )
 ---------------------------------------
 database related
 ----------------
-pymysql   :
-cx_Oracle
-pymongo
-pymssql
+pymysql   : (Mysql)
+cx_Oracle   ( Oracle)
+pymongo     ( MongoDB)
+pymssql     ( SQL Server)
  
 
 web frameworks ( developing web applications)
@@ -357,6 +357,20 @@ web frameworks ( developing web applications)
 django
 flask
 bottle
+
+cloud
+---------
+boto3    ( amazon aws)
+azure    ( microsoft azure)
+oci      ( oracle cloud)
+gcp      ( google cloud)
+
+
+
+
+
+
+
 
  
 
@@ -412,6 +426,90 @@ subprocess.
 
 
 
+definition | function | subroutine | submodule
+---------------------------------------------
+some set of lines written for the reusability purpose.
+
+def
+
+
+
+
+
+
+
+
+same program
+-------------
+- file handling                     def file_handling()
+- connecting to remote server       def remote_server()
+- web scraping                      def
+- database progamming
+- deleting all the files
+
+
+
+Relational database : oracle mysql sqlserver sybase
+
+
+non relational database : mongodb
+
+
+
+
+
+
+creating database
+------------------
+create database information ;
+
+display all existing databases
+-----------------------------
+show databases;
+
+access your database
+-------------------
+use information ;
+
+display all existing tables
+---------------------------
+show tables ;                 ( intially it will be empty)
+
+
+creating table
+--------------
+create table realestate(street varchar(200), city varchar(200));
+
+inserting records
+--------------------
+insert into realestate values('Miyapur','Hyderabad');
+insert into realestate values('MG Road','Hyderabad');
+
+display all the records
+-----------------------
+select * from realestate;
+
+
+
+python's inbuilt database :   sqlite3  ( light weighted db)
+
+
+
+
+
+
+
+
+
+
+steps involed in connecting to database
+------------------------------------
+
+-connecting to the database
+- prepare your query
+- execute the query
+- fetch the data
+- close
 
 
 
@@ -465,4 +563,4 @@ subprocess.
 
 
 
-set
+
